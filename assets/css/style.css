@@ -1209,6 +1209,9 @@ margin-block-end: 20px;
 }
 
 }
+.hover-2{
+  font-size: 22px;
+}
 
 /* 992 */
 
@@ -1301,7 +1304,7 @@ font-size: 2.5rem;
 
 }
 
-.navbar{
+.navbar {
   all: unset;
   display: block;
  
