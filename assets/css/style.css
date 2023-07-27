@@ -1303,14 +1303,18 @@ font-size: 2.5rem;
 
 
 }
+  
+
+
 
 .navbar {
   all: unset;
   display: block;
+  transform: translateX(0);
  
 }
 .navbar-list{
-  border-block-end: none;
+  /* border-block-end: none; */
   display: flex;
 
   gap: 40px;
