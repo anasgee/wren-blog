@@ -101,3 +101,29 @@ sliderPrevButton.addEventListener("click",prevSlide)
 
 
 // 
+
+
+
+// Scroll Reveal ////////
+ScrollReveal({ 
+    reset: true,
+    distance:'80px',
+    duration:1000,
+    delay:200
+  });
+  ScrollReveal().reveal('.container' , {origin:'bottom'});
+//   ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form' , {origin:'bottom'});
+//   ScrollReveal().reveal('.home-content h1, .about-img' , {origin:'left'});
+//   ScrollReveal().reveal('.home-content p, .about-content' , {origin:'right'});
+  
+  // Typ ed Js
+  document.querySelectorAll('.multiple-text').forEach(function(elem){
+    new Typed(elem,{
+      strings: ['Frontend Developer','React Developer', 'Youtuber', 'Graphic Designer'],
+      typeSpeed: 50,
+      backSpeed:50,
+      backDelay:1000,
+      loop:true
+    })
+  
+  })
